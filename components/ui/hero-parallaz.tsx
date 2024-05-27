@@ -10,6 +10,8 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { TextGenerateEffect } from "./TextGenerateEffect";
+import MagicButton from "./MagicButton";
+import { FaLocationArrow } from "react-icons/fa";
 
 export const HeroParallax = ({
   products,
@@ -110,11 +112,14 @@ export const Header = () => {
       </h1>
       <TextGenerateEffect
         className="text-2xl  md:text-7xl font-bold dark:text-blue-100 lg:text-6xl "
-        words="Transforming your Concepts into Seamless Experiences"
+        words="Transforming your Concepts into Seamless User Experiences"
       />
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-blue-100">
       We build beautiful products with the latest technologies and frameworks. As a full stack developer, I, Michael Youssef, am passionate about creating seamless user experiences and delivering high-quality, innovative solutions. My expertise spans from crafting responsive front-end designs to developing robust back-end systems.
       </p>
+      <a href="#about">
+        <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right"/>
+      </a>
 
     </div>
   );
