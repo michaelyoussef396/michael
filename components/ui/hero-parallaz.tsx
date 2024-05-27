@@ -9,6 +9,7 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { TextGenerateEffect } from "./TextGenerateEffect";
 
 export const HeroParallax = ({
   products,
@@ -105,13 +106,16 @@ export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-blue-100">
-        The Ultimate <br /> development studio
+        Innovating the Future  <br /> with Michael
       </h1>
+      <TextGenerateEffect
+        className="text-2xl  md:text-7xl font-bold dark:text-blue-100 lg:text-6xl "
+        words="Transforming your Concepts into Seamless Experiences"
+      />
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-blue-100">
-        We build beautiful products with the latest technologies and frameworks.
-        We are a team of passionate developers and designers that love to build
-        amazing products.
+      We build beautiful products with the latest technologies and frameworks. As a full stack developer, I, Michael Youssef, am passionate about creating seamless user experiences and delivering high-quality, innovative solutions. My expertise spans from crafting responsive front-end designs to developing robust back-end systems.
       </p>
+
     </div>
   );
 };
