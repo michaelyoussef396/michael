@@ -5,6 +5,8 @@ import Image from "next/image";
 import { FaHome } from "react-icons/fa";
 import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
+import Clients from "@/components/clients";
+import Experience from "@/components/Experince";
 export default function Home() {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
@@ -13,6 +15,9 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        <Clients />
+        <Experience />
+        
       </div>
     </main>
   );
