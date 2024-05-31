@@ -5,7 +5,7 @@ import Image from "next/image";
 import { FaHome } from "react-icons/fa";
 import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
-import Clients from "@/components/clients";
+import Clients from "@/components/Clients";
 import Experience from "@/components/Experince";
 export default function Home() {
   return (
