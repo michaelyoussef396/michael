@@ -6,7 +6,7 @@ import { FaHome } from "react-icons/fa";
 import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
 import Clients from "@/components/Clients";
-import Experience from "@/components/Experince";
+import EducationAndCertifications from "@/components/EducationAndCertifications";
 import Footer from "@/components/Footer";
 import Approach from "@/components/Approach";
 export default function Home() {
@@ -16,10 +16,10 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
-        <RecentProjects />
-        <Clients />
-        <Experience />
         <Approach />
+        <RecentProjects />
+        <EducationAndCertifications />
+        <Clients />
         <Footer />
       </div>
     </main>
