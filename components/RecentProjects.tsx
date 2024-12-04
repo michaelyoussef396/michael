@@ -4,6 +4,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import MagicButton from "./ui/MagicButton";
 
 const RecentProjects = () => {
   return (
@@ -75,6 +76,12 @@ const RecentProjects = () => {
             </PinContainer>
           </div>
         ))}
+
+      </div>
+      <div className="flex justify-center mt-10">
+        <a href="#about" className="">
+          <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" />
+        </a>
       </div>
     </div>
   );
