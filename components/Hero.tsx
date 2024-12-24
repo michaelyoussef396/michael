@@ -6,28 +6,28 @@ import MagicButton from './ui/MagicButton'
 const Hero = () => {
     const products = [
         {
-            title: "Nike website",
-            link: "https://michael-nike-clone.netlify.app/",
+            title: "Social Sphere",
+            link: "https://www.socialsphere.icu/",
             thumbnail:
-              "/thumbnail2.png",
+              "/socialsphere.png",
           },
           {
-            title: "brainwave ai",
-            link: "https://michael-ai-landing-page.netlify.app/",
+            title: "Eden International",
+            link: "https://www.edeninternational.in",
             thumbnail:
-              "/thumbnail3.png",
+              "/edeninternational.png",
         },
         {
-            title: "the waypoint",
-            link: "thewaypoint.netlify.app/",
+            title: "Quality Care",
+            link: "https://qualitycareproviders.com.au/",
             thumbnail:
-              "/thumbnail4.png",
+              "/qualitycare.png",
         },
         {
-            title: "brainwave ai",
-            link: "https://michael-ai-landing-page.netlify.app/",
+            title: "Mould & Restoration",
+            link: "https://mouldandrestoration.com.au/",
             thumbnail:
-              "/thumbnail3.png",
+              "/mouldandrestoration.png",
         },
         
         {
@@ -49,10 +49,10 @@ const Hero = () => {
               "/thumbnail2.png",
           },
           {
-            title: "Iphone 15 pro max",
-            link: "https://apple-iphone-15-pro.netlify.app/",
+            title: "Mavi Events",
+            link: "https://mavi-events-i4i69e5rr-michaelyoussef396s-projects.vercel.app/",
             thumbnail:
-              "/thumbnail1.png",
+              "/mavievents.png",
         },
         {
             title: "brainwave ai",
