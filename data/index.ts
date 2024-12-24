@@ -107,34 +107,36 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Michael was an absolute pleasure to work with. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout the development of our website. Michael's enthusiasm for every facet of development truly stands out. If you're seeking to transform your online presence and elevate your brand, Michael is the ideal partner.",
+    name: "Azura",
+    title: "Owner of Eden International",
+  },  
+  {
+    quote:
+      "Working with Michael was a seamless experience. His expertise, attention to detail, and commitment to delivering a top-tier website for our event management platform exceeded our expectations. Michael's creativity and technical skills brought our vision to life, and the result has been nothing short of amazing. We highly recommend Michael for anyone looking to enhance their digital presence.",
+    name: "Sophia Reynolds",
+    title: "Founder of SocialSphere.icu",
+  },  
+  {
+    quote:
+      "Michael did an outstanding job creating our website. His professionalism, creativity, and ability to deliver exactly what we envisioned were truly impressive. The website not only looks fantastic but also functions seamlessly, perfectly showcasing our services. I highly recommend Michael for anyone in need of a professional and reliable web developer.",
+    name: "Glenneon Zaye Farolan",
+    title: "Owner of Mould and Restoration",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Michael exceeded our expectations in designing and developing a website that perfectly represents our brand. His attention to detail, prompt communication, and dedication to delivering quality results were evident throughout the process. The new website has significantly improved our online presence and client engagement. Michael is the go-to professional for exceptional web development.",
+    name: "Azura",
+    title: "Owner of Quality Care Provider",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+      "Michael brought our vision to life with a stunning and highly functional website for Mavi Events. His expertise, responsiveness, and dedication to delivering a top-quality product made the entire process smooth and enjoyable. The website has been a game-changer for our business, helping us attract more clients and streamline our services. I can't recommend Michael enough for anyone looking to elevate their online presence.",
+    name: "Liam Carter",
+    title: "Founder of Mavi Events",
+  }
+  
+  
 ];
 
 export const companies = [

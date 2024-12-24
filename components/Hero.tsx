@@ -31,10 +31,10 @@ const Hero = () => {
         },
         
         {
-            title: "the waypoint",
-            link: "thewaypoint.netlify.app/",
+            title: "Sole Media",
+            link: "https://solemedia.com.au/",
             thumbnail:
-              "/thumbnail4.png",
+              "/solemedia.png",
         },
         {
             title: "meta verse madness",
