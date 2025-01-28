@@ -1,6 +1,11 @@
 import React from 'react'
 
-const PostCard = ( {post}) => {
+interface Post {
+  title: string;
+  excerpt: string;
+}
+
+const PostCard: React.FC<{ post: Post }> = ({ post }) => {
   return (
     <div>
       {post.title}
