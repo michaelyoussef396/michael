@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Fredoka } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 
 const inter = Inter({ subsets: ["latin"] });
+const fredoka = Fredoka({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Michael Youssef's Porfolio ",
@@ -17,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={fredoka.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

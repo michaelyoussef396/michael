@@ -1,7 +1,7 @@
 import React from "react";
 
 import { certifications } from "@/data"; // Ensure this is the correct path to the data
-import { Button } from "./ui/MovingBorders";
+import { Button } from "../components/ui/MovingBorders";
 
 const EducationAndCertifications = () => {
   return (
@@ -31,7 +31,7 @@ const EducationAndCertifications = () => {
                 className="lg:w-32 md:w-20 w-16"
               />
               <div className="lg:ms-5">
-                <h1 className="text-start text-xl md:text-2xl font-bold">
+                <h1 className="text-start text-purple text-xl md:text-2xl font-bold">
                   {cert.title}
                 </h1>
                 <p className="text-start text-white-100 mt-3 font-semibold">

@@ -3,8 +3,8 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
-import { PinContainer } from "./ui/Pin";
-import MagicButton from "./ui/MagicButton";
+import { PinContainer } from "../components/ui/Pin";
+import MagicButton from "../components/ui/MagicButton";
 
 const RecentProjects = () => {
   return (
@@ -37,7 +37,7 @@ const RecentProjects = () => {
                 />
               </div>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+              <h1 className="font-bold lg:text-2xl text-purple md:text-xl text-base line-clamp-1">
                 {item.title}
               </h1>
 
@@ -79,7 +79,7 @@ const RecentProjects = () => {
 
       </div>
       <div className="flex justify-center mt-10">
-        <a href="#about" className="">
+        <a href="/portfolio" className="">
           <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" />
         </a>
       </div>

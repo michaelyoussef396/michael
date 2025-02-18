@@ -1,7 +1,7 @@
 import React from 'react'
-import { Spotlight } from './ui/Spotlight'
-import { HeroParallax } from './ui/hero-parallaz'
-import MagicButton from './ui/MagicButton'
+import { Spotlight } from '../components/ui/Spotlight'
+import { HeroParallax } from '../components/ui/hero-parallaz'
+import MagicButton from '../components/ui/MagicButton'
 
 const Hero = () => {
     const products = [
@@ -92,7 +92,7 @@ const Hero = () => {
         </div>
 
         <div className='flex justify-center'>
-        <HeroParallax products={products} />;
+        <HeroParallax products={products} />
         </div>
     </div>
   )
